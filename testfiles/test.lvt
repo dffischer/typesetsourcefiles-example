@@ -1,0 +1,4 @@
+\input regression-test.tex\relax
+\START
+\typeout{This is a real test.}
+\END

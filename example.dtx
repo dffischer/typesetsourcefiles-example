@@ -1,0 +1,18 @@
+%<*doc>
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+  This is the documentation. It shows the output of a test definition.
+
+  \fbox{\includegraphics[width=\textwidth]{testexample.pdf}}
+\end{document}
+%</doc>
+%<*lvt>
+\input regression-test.tex\relax
+\START
+\documentclass{article}
+\begin{document}
+This is an example for a test.
+\end{document}
+\END
+%</lvt>
