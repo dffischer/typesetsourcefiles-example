@@ -1,7 +1,8 @@
 #!/usr/bin/env texlua
 module = "example"
 
--- sourcefiles = { "*.ins", "*.dtx" }  -- implicit
+sourcefiles = { }
+typesetsourcefiles = { "*.ins", "*.dtx" }
 typesetdemofiles = { "*.lvt" }
 typesetfiles = { "*.tex" }
 
